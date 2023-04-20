@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+	</head>
+	<style>
+		body {
+		margin: 0;
+		padding: 0;
+		background-color: #f1f1f1;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		line-height: 1.5;
+		}
+
+		#header {
+		background-color: #333;
+		color: #fff;
+		text-align: center;
+		padding: 20px;
+		}
+
+		#header img {
+			max-width: 100%;
+			height: auto;
+		}	
+
+		#wrapper {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			margin: 20px;
+		}
+
+		#sidebar {
+			background-color: black;
+			padding: 50px;
+			flex-basis: 10%;
+			color: white;
+			border:20px;
+		}
+
+		#sidebar h2 {
+			margin-top: 0;
+		}
+
+		#sidebar ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		#sidebar li {
+			margin-bottom: 10px;
+		}
+
+		#sidebar a {
+			display: block;
+			background-color: #fff;
+			color: #333;
+			padding: 10px;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+
+		#sidebar a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+
+		#content {
+			background-color: #fff;
+			padding: 20px;
+			flex-basis: 80%;
+		}
+
+		#footer {
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			padding: 20px;
+			width: 100%;
+		}
+
+			.anime-list {
+			  list-style: none;
+			  margin: 0;
+			  padding: 0;
+			  display: flex;
+			  flex-wrap: wrap;
+			  justify-content: center;
+			   display: inline-block;
+			   margin: right	
+			   
+			}
+
+			.anime {
+			  width: 300px;
+			  margin: 20px;
+			  text-align: center;
+			   display: inline-block;
+			  }
+
+			.anime img {
+			  width: 100%;
+			  height: auto;
+			   display: inline-block;
+			}
+
+			.anime h2 {
+			  margin: 10px 0;
+			   display: inline-block;
+			}
+
+			.anime p {
+			  margin: 0;
+			   display: inline-block;
+			}
+			
+			
+
+</style>
+	
+<head>
+	<title>Galeria de animes </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h1>Galeria de WAK </h1>
+		<img src="./assets/img/R.gif" alt="Cabeçalho">
+	</div>
+	<div id="wrapper">
+		<div id="sidebar">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="Animes.html">Animes</a></li>
+				<li>Personagens</li>
+				<li><a href="novidades.html">Novidades</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Personagens de demonslayer!</h2>
+				<p>Aqui você encontrará informações sobre os melhores animes do momento, seus personagens, novidades e muito mais!</p>
+	
+			  <table>
+				  <thead>
+					<tr>
+					  <th>Personagem</th>
+					  <th>Nome</th>
+					  <th></th>
+
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr data-aos="fade-up">
+					  <td><img class="avatar" src="./assets/img/tanj.jpg" alt="Avatar 1"></td>
+					  <td class="name">Tanjiro Kamado</td>
+					  <td>Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō?) é o 
+					  protagonista principal de Demon Slayer: Kimetsu no Yaiba. Ele é um Caçador de Oni do Esquadrão de Caçadores de Onis, que se juntou para encontrar um remédio para transformar sua irmã, Nezuko Kamado, que foi transformada em um Oni, de volta em um humano.
+						Antes de se tornar um Caçador de Oni, sua família foi massacrada pelo Rei dos Onis,
+						Muzan Kibutsuji, enquanto sua irmã mais nova, Nezuko, foi transformada em uma Oni</td>
+
+					</tr>
+					<tr>
+					  <td><img class="avatar" src="./assets/img/akaz.jpg" alt="Avatar 2"></td>
+					  <td class="name">Akaza</td>
+					  <td>Akaza é um Demônio forte, teimoso e impulsivo que gostava de lutar, especialmente contra Caçadores de Demônios fortes em K
+					  imetsu no Yaiba – Demon Slayer. Ele desprezava qualquer um que considerasse fraco, mas genuinamente respeitava aqueles que eram
+					  fortes aos seus olhos, independentemente de sua raça. Uma vez que conheceu alguém que considera forte, ele exige
+					  saber seu nome e não iria parar até que descobrisse, ele se lembra de todos os nomes que guardou na memória c
+					  omo um tributo à força deles.</td>
+
+					</tr>
+					<tr>
+					  <td><img class="avatar" src="./assets/img/nezu.jpg" alt="Avatar 3"></td>
+					  <td class="name">Nezuko Kamado</td>
+					  <td>Nezuko Kamado é uma das principais personagens de Demon Slayer: Kimetsu no Yaiba. Quando a conhecemos, ela 
+					  é apenas uma humana vivendo com sua mãe e irmãos, mas j
+					  á no primeiro episódio sua vida muda completamente… A irmã mais nova de Tanjiro agora é um oni cheia de mistérios sobre seu próprio poder e sobrevivência.</td>
+					</tr>
+				  </tbody>
+				</table>
+			<div id="footer">
+				<p>Muito Obrigado!</p>
+			</div>
+		</div>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+			<script>
+				AOS.init();
+			  </script>
+
+
+		</body>
+		</html>
